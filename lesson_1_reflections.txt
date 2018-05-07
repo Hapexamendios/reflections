@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you 
+see the bug that was introduced? Using diff was very helpful to me in finding 
+the differences between lines.
+Right off the bat it was helpful to not need to pour over every line of code
+for the two programs, looking at each item individualy. The diff command
+would automatically indicate any places that changes too place, followed
+by what was added and removed. This allowed me to ignore any sections
+where nothing was different and nothing had changed, and focus my attention
+only on areas where something was changed - added or removed.
+
+Easy access to the entire history of a file will add to efficiency as it 
+will allow you to rapidly test new code and identify where and when bugs
+or other issues are introduced. If you're testing frequently, with different
+versions, it will be much more easy to identify specifically what new 
+addition caused a problem, as well as being able to understand exactly
+what this issue is.
+
+Manual commit choice has several pros and cons
+Pro: makes such the size is always what you want it to be
+Pro: won't cut-off or get cluttered if auto committing takes place
+Con: You might forget to commit, leading to them being too large
+Con: You have to really make a point of remembering to perform it
+Con: If you're lazy, the commit notes might not be helpful
+
+Multiple file commits are necessary on control systems like Git as they're
+typically used to monitor and manage files that are inter-related and reference
+one another. If you have a series of word files, these aren't going to be
+impacted too much if you change something in one or another. However, if you 
+are changing an output, the file or component which is asking for that output
+as an input will suddenly be impacted and keeping them all up to date is 
+important.
+
+The command sgit log and git diff are used to view the history of files by
+showing each commit, the ID or serial number associated with it, the date and
+time stamp, author, and notes on the commit itself. You can then use the diff
+command to show the additions and removals when comparing two commits.
+
+Version control allows a lot of confidence with regard to making code changes
+as it will allow the coder free reign to make changes without fear that a
+previous, stable version will be lost or that if a bug is introduced, it'll
+be hard to find it. This is especially the case if a bug isn't noticed for some
+time and isn't just something that immediately jumps out during 'does it run'
+type testing.
+
+I want to try using git to keep track of my development changes as I begin
+working on the full stack development course and to allow me to understand
+the process of making changes to the SendGrid code base.
