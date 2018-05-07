@@ -1,0 +1,13 @@
+What happens when you initialize a repo? Why do you need to do it?
+
+Initializing a repo creates a hidden .git folder, containing the metadata
+that allows it to track changes in files, allowing version control. You need
+to do it so that the hidden folder that tracks all this meta data is created.
+
+How is the staging area different than the working directory and the repo?
+What value do you think it offers?
+
+The staging area is different in that it is a place where we can bundle 
+together groups of files for a commit, and allow us to selectively commit 
+changed files rather than being forced to commit all changes at once. The value
+is in this selective commitment.
