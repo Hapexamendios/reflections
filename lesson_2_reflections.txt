@@ -11,3 +11,10 @@ The staging area is different in that it is a place where we can bundle
 together groups of files for a commit, and allow us to selectively commit 
 changed files rather than being forced to commit all changes at once. The value
 is in this selective commitment.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+The staging area can be used to make sure you have one commit per logical change
+by comparing it with the most recent commit to make sure only one thing is 
+being changed between the versions.
