@@ -35,3 +35,10 @@ branches are reachable and which are not based on your current location. Each
 commit only points to its own parents, so other branches are not visible via the
 log command, and if a commit isn't part of an existing branch, it's going to be
 invisible.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging two branches together effectively combines them into a single branch
+from that point forward. We represent it in this way as the merged commit
+effectively has two parents from that point forward.
