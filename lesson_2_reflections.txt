@@ -27,3 +27,11 @@ working to create a new feature, or if several users within an organization were
 each working to make new, different additions to the same code base. Branches
 would help as they would allow each user to continue to make their additions
 while not limiting the code to only one person working on it at a time.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help to visualize the branch structure as they help you to see which
+branches are reachable and which are not based on your current location. Each
+commit only points to its own parents, so other branches are not visible via the
+log command, and if a commit isn't part of an existing branch, it's going to be
+invisible.
