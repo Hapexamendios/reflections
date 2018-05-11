@@ -18,3 +18,12 @@ change?
 The staging area can be used to make sure you have one commit per logical change
 by comparing it with the most recent commit to make sure only one thing is 
 being changed between the versions.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Situations in which branching can help organize would such as when you are 
+working to create a new feature, or if several users within an organization were
+each working to make new, different additions to the same code base. Branches
+would help as they would allow each user to continue to make their additions
+while not limiting the code to only one person working on it at a time.
