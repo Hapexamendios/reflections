@@ -42,3 +42,15 @@ the diagram the way we do?
 Merging two branches together effectively combines them into a single branch
 from that point forward. We represent it in this way as the merged commit
 effectively has two parents from that point forward.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Automatic merging is useful in that it will allow multiple people within an
+organization to all work together to make changes to the same code base. 
+Merging automatically will same time and keep everyone moving with rapid 
+velocity, but it has risks in that unintended results can occur such as some
+functionality being lost or bugs being introduced. Due to this, it's a safe
+bet to go back and perform testing after completing a merge. If you are the
+only user making use of git, this is much safer. As such, it depends on the
+organzation and how projects are being worked on.
