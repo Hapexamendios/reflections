@@ -8,3 +8,10 @@ manually pass files back and forth between computers and having an ever increasi
 number of branches. Finally, a remote repository may be helpful in that it could
 make it easy to pull files from what is essentially a remote host onto servers
 that may run it, rather than having to use some other file transfer method.
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+Always pulling changes manually will help to ensure that changes made on a remote
+repo, such as those made by other people working on the same project, will not
+overwrite what you may be working on at a given moment. 
