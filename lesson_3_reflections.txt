@@ -24,3 +24,11 @@ their space on github onto your own. During this process, it also gives credit t
 user that you make this copy on github. Cloning is the process of making a copy of a
 repository that's hosted on github onto your local machine. Branches are different
 lines of code modifications within a single repository.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+The benefit of having a copy of the last known state of the remote stored locally
+is that you know from what historical point you're moving forward from, thus allowing
+you to later know where branches may have been created by other collaborators on the
+project while you were offline or only able to access the local copy.
