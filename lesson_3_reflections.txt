@@ -32,3 +32,13 @@ The benefit of having a copy of the last known state of the remote stored locall
 is that you know from what historical point you're moving forward from, thus allowing
 you to later know where branches may have been created by other collaborators on the
 project while you were offline or only able to access the local copy.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+Without the use of git or github, it would be necessary to have a master file in
+some location that is what is continously used and edited by only one person at 
+a time. This would be somewhat easier in that merge conflicts likely wouldn't
+ever occur, but it would result in an inability for multiple developers to code
+on the same project at the same time, as well as higher risk in that whatever
+was being changed would go from the edit zone directly into production. 
