@@ -42,3 +42,14 @@ a time. This would be somewhat easier in that merge conflicts likely wouldn't
 ever occur, but it would result in an inability for multiple developers to code
 on the same project at the same time, as well as higher risk in that whatever
 was being changed would go from the edit zone directly into production. 
+
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+Making changes in a separate branch will allow you to keep the changes you're making
+entirely isolated from the existing, working build that is present in master. This
+can be helpful in that it would keep an in progress or experimental new component
+separate from what be the critical, fully functional master. Bug fixes to master
+should likely continue to move forward in master, moving from stable build to stable
+build, while keeping experimental featuers in a separate place until they're really
+ready to take center stage and be merged in.
